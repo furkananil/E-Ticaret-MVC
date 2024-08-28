@@ -8,6 +8,6 @@ namespace ETicaretApp.Controllers
         {
             return View();
         }
-
+        
     }
 }
