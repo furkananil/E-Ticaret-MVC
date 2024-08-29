@@ -124,3 +124,4 @@ C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\obj\Debug\net8.0\ETicaretApp.c
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\obj\Debug\net8.0\ETicaretApp.sourcelink.json
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\obj\Debug\net8.0\ETicaretApp.csproj.CopyComplete
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\ETicaretApp.staticwebassets.runtime.json
+C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\libman.json
