@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Entities.Models;
 
 namespace ETicaretApp.Models
 {
@@ -9,7 +10,7 @@ namespace ETicaretApp.Models
         public RepositoryContext(DbContextOptions<RepositoryContext> options) : base(options)
         {
             
-        }
+        } 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
