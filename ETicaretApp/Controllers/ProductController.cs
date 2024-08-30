@@ -1,7 +1,7 @@
 using Entities.Models;
-using ETicaretApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Repositories;
 
 namespace ETicaretApp.Controllers
 {

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaretApp", "ETicaretApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{474DCE41-C70D-46A5-9178-043BDE8CF99F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{D526DA44-CA1D-4143-97A2-40B99D7652C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{474DCE41-C70D-46A5-9178-043BDE8CF99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{474DCE41-C70D-46A5-9178-043BDE8CF99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{474DCE41-C70D-46A5-9178-043BDE8CF99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D526DA44-CA1D-4143-97A2-40B99D7652C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D526DA44-CA1D-4143-97A2-40B99D7652C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D526DA44-CA1D-4143-97A2-40B99D7652C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D526DA44-CA1D-4143-97A2-40B99D7652C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
