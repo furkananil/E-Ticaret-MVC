@@ -129,3 +129,5 @@ C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Entities.dll
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Entities.pdb
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Repositories.dll
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Repositories.pdb
+C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Services.dll
+C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Services.pdb
