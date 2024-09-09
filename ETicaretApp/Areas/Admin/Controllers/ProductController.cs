@@ -1,5 +1,6 @@
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Services.Contracts;
 
 namespace ETicaretApp.Areas.Admin.Controllers
@@ -22,6 +23,7 @@ namespace ETicaretApp.Areas.Admin.Controllers
 
         public IActionResult Create()
         {
+            ViewBag.Categories = new SelectList(_manager.CategoryService.GetAllCategories(false),"CategoryId","CategoryName","1");
             return View();
         }
         [HttpPost]
