@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4fPsVjf4wfFqKpHWhXFgj7xKbnSOV/+Meo65WeOIw5Dz9pQBFqnMdm9ZxCxlTmY8VH9ek/RDgBpAeeJhHLeZnw==",
+  "dgSpecHash": "M2lVkhNx/g/MJ4zgHkbbJSpZ9lPzKa7ktMoHZIN41CTBZuhW+LOL/0CMBySUaLJSS5+8MxZGCWo55wj5jit80w==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\Services\\Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0\\microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0\\microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0\\microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",

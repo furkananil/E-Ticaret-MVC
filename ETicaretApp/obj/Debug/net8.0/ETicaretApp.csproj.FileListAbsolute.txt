@@ -131,3 +131,5 @@ C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Repositories.
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Repositories.pdb
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Services.dll
 C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\Services.pdb
+C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\LENOVO\Desktop\E-Ticaret-MVC\ETicaretApp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,4 +1,6 @@
 using System.Runtime.Serialization;
+using AutoMapper;
+using Entities.Dtos;
 using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
@@ -8,14 +10,24 @@ namespace Services
     public class ProductManager : IProductService
     {
         private readonly IRepositoryManager _manager;
+        private readonly IMapper _mapper;
 
-        public ProductManager(IRepositoryManager manager)
+        public ProductManager(IRepositoryManager manager, IMapper mapper)
         {
             _manager = manager;
+            _mapper = mapper;
         }
 
-        public void CreateProduct(Product product)
+        public void CreateProduct(ProductDtoForInsertion productDto)
         {
+            //Product product = new Product()
+            //{
+            //    ProductName = productDto.ProductName,
+            //    Price = productDto.Price,
+            //    CategoryId = productDto.CategoryId
+            //};
+            Product product = _mapper.Map<Product>(productDto);
+            
             _manager.Product.Create(product);
             _manager.Save();
         }
@@ -27,8 +39,7 @@ namespace Services
             {
                 _manager.Product.DeleteOneProduct(product);
                 _manager.Save();
-            }
-            
+            } 
         }
 
         public IEnumerable<Product> GetAllProducts(bool trackChanges)
