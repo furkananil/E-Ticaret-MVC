@@ -34,10 +34,18 @@ namespace ETicaretApp.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([FromForm] ProductDtoForInsertion productDto)
+        public async Task<IActionResult> Create([FromForm] ProductDtoForInsertion productDto, IFormFile file)
         {
             if(ModelState.IsValid)
             {
+                //file operation
+                string path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","images",file.FileName);
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+                productDto.ImageUrl = String.Concat("/images/", file.FileName);
                 _manager.ProductService.CreateProduct(productDto);
                 return RedirectToAction("Index");
             }
@@ -53,11 +61,19 @@ namespace ETicaretApp.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Update([FromForm] ProductDtoForUpdate product)
+        public async Task<IActionResult> Update([FromForm] ProductDtoForUpdate productDto, IFormFile file)
         {
             if(ModelState.IsValid)
             {
-                _manager.ProductService.UpdateOneProduct(product);
+                //file operation
+                string path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","images",file.FileName);
+
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+                productDto.ImageUrl = String.Concat("/images/", file.FileName);
+                _manager.ProductService.UpdateOneProduct(productDto);
                 return RedirectToAction("Index");
             }
             return View();

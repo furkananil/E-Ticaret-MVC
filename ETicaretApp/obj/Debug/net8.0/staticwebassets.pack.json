@@ -9,8 +9,48 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\default.jpg",
       "PackagePath": "staticwebassets\\images\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\images\\keyboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\laptop.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\monitor.jpg",
+      "PackagePath": "staticwebassets\\images\\monitor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\mouse.jpg",
+      "PackagePath": "staticwebassets\\images\\mouse.jpg"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\js\\site.js",
