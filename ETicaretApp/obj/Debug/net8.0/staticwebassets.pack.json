@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\images\\default.jpg"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\hayvanciftligi.jpg",
+      "PackagePath": "staticwebassets\\images\\hayvanciftligi.jpg"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\keyboard.jpg",
       "PackagePath": "staticwebassets\\images\\keyboard.jpg"
     },

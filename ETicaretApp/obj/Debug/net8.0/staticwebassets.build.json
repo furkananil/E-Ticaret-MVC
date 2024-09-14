@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B8r4as9hHWEo6COe9MLzhxbaPh0G0SAc5y7O9y4IRX8=",
+  "Hash": "F175KNhex4cRmZQmuq6CyPaOZ/6z7XNXcO+OdNftqy4=",
   "Source": "ETicaretApp",
   "BasePath": "_content/ETicaretApp",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\hayvanciftligi.jpg",
+      "SourceId": "ETicaretApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\",
+      "BasePath": "_content/ETicaretApp",
+      "RelativePath": "images/hayvanciftligi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hayvanciftligi.jpg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\wwwroot\\images\\keyboard.jpg",

@@ -5,6 +5,7 @@ using Repositories.Contracts;
 using System.Net;
 using Services.Contracts;
 using Services;
+using Entities.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IServiceManager, ServiceManager>();
 builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
+
+builder.Services.AddSingleton<Cart>();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
