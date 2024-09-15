@@ -1,4 +1,5 @@
 using Entities.Models;
+using ETicaretApp.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Services.Contracts;
@@ -9,19 +10,17 @@ namespace ETicaretApp.Pages
     {
         private readonly IServiceManager _manager;
         public Cart Cart { get; set; } // IoC
-        public CartModel(IServiceManager manager, Cart cart)
+        public CartModel(IServiceManager manager)
         {
             _manager = manager;
-            Cart = cart;
         }
 
-        
         public string ReturnUrl { get; set; } = "/";
 
         public void OnGet(string returnUrl)
         {
             ReturnUrl = returnUrl ?? "/";
-
+            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
         }
 
         public IActionResult OnPost(int productId, string returnUrl)
@@ -30,14 +29,18 @@ namespace ETicaretApp.Pages
 
             if(product is not null)
             {
+                Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
                 Cart.AddItem(product,1);
+                HttpContext.Session.SetJson<Cart>("cart", Cart);
             }
             return Page();
         }
 
         public IActionResult OnPostRemove(int id, string returnUrl)
         {
+            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
             Cart.RemoveLine(Cart.Lines.First(cl => cl.Product.ProductId.Equals(id)).Product);
+            HttpContext.Session.SetJson<Cart>("cart", Cart);
             return Page();
         }
     }
