@@ -11,8 +11,8 @@ using Repositories;
 namespace ETicaretApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240918171152_start")]
-    partial class start
+    [Migration("20240919144350_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -127,6 +127,9 @@ namespace ETicaretApp.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("ShowCase")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Summary")
                         .HasColumnType("TEXT");
 
@@ -144,6 +147,7 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/1.jpg",
                             Price = 17000m,
                             ProductName = "Gaming Computer",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -153,6 +157,7 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/2.jpg",
                             Price = 1749m,
                             ProductName = "Mechanical Keyboard",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -162,6 +167,7 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/3.jpg",
                             Price = 629m,
                             ProductName = "Mouse",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -171,6 +177,7 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/4.jpg",
                             Price = 5449m,
                             ProductName = "Monitor",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -180,6 +187,7 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/5.jpg",
                             Price = 2300m,
                             ProductName = "Deck",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -189,6 +197,7 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/6.jpg",
                             Price = 85m,
                             ProductName = "History",
+                            ShowCase = false,
                             Summary = ""
                         },
                         new
@@ -198,6 +207,37 @@ namespace ETicaretApp.Migrations
                             ImageUrl = "/images/7.jpg",
                             Price = 75m,
                             ProductName = "Hamlet",
+                            ShowCase = false,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 8,
+                            CategoryId = 1,
+                            ImageUrl = "/images/8.jpg",
+                            Price = 775m,
+                            ProductName = "Xp-pen",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 9,
+                            CategoryId = 2,
+                            ImageUrl = "/images/9.jpg",
+                            Price = 24500m,
+                            ProductName = "Galaxy FE",
+                            ShowCase = true,
+                            Summary = ""
+                        },
+                        new
+                        {
+                            ProductId = 10,
+                            CategoryId = 1,
+                            ImageUrl = "/images/10.jpg",
+                            Price = 545m,
+                            ProductName = "Hp Mouse",
+                            ShowCase = true,
                             Summary = ""
                         });
                 });
