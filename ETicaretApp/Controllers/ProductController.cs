@@ -1,5 +1,6 @@
 using Entities.Models;
 using Entities.RequestParameters;
+using ETicaretApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repositories;
@@ -25,8 +26,21 @@ namespace ETicaretApp.Controllers
 
             //var model = _context.Products.ToList();
             
-            var model = _manager.ProductService.GetAllProductsWithDetails(p);
-            return View(model);
+            // var model = _manager.ProductService.GetAllProductsWithDetails(p);
+            // return View(model);
+
+            var products = _manager.ProductService.GetAllProductsWithDetails(p);
+            var pagination = new Pagination()
+            {
+                CurrentPage = p.PageNumber,
+                ItemsPerPage = p.PageSize,
+                TotalItems = _manager.ProductService.GetAllProducts(false).Count()
+            };
+            return View(new ProductListViewModel()
+            {
+                Products = products,
+                Pagination = pagination
+            });
         }
         public IActionResult Get([FromRoute(Name="id")] int id)
         {
