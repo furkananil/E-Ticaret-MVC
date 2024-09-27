@@ -11,5 +11,6 @@ namespace Services.Contracts
         Task<UserDtoForUpdate> GetOneUserForUpdate(string userName);
         Task<IdentityUser> GetOneUser(string userName);
         Task Update(UserDtoForUpdate userDto);
+        Task<IdentityResult> ResetPassword(ResetPasswordDto model);
     }
 }
