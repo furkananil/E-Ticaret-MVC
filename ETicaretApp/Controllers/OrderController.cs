@@ -1,5 +1,6 @@
 using Entities.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 
@@ -16,6 +17,7 @@ namespace ETicaretApp.Controllers
             _cart = cart;
         }
 
+        [Authorize]
         public ViewResult Checkout() => View(new Order());
 
         [HttpPost]
