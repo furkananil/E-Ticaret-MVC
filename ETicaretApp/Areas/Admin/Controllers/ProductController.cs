@@ -22,6 +22,8 @@ namespace ETicaretApp.Areas.Admin.Controllers
 
         public IActionResult Index([FromQuery] ProductRequestParameters p)
         {
+            ViewData["Title"] = "Products";
+
             var products = _manager.ProductService.GetAllProductsWithDetails(p);
             var pagination = new Pagination()
             {
@@ -61,6 +63,7 @@ namespace ETicaretApp.Areas.Admin.Controllers
                 }
                 productDto.ImageUrl = String.Concat("/images/", file.FileName);
                 _manager.ProductService.CreateProduct(productDto);
+                TempData["success"] = $"{productDto.ProductName} has been created.";
                 return RedirectToAction("Index");
             }
             return View();
@@ -70,6 +73,7 @@ namespace ETicaretApp.Areas.Admin.Controllers
         {
             ViewBag.Categories = GetCategoriesSelectList();
             var model = _manager.ProductService.GetOneProductForUpdate(id,false);
+            ViewData["Title"] = model?.ProductName;
             return View(model);
         }
 
@@ -96,6 +100,7 @@ namespace ETicaretApp.Areas.Admin.Controllers
         public IActionResult Delete([FromRoute(Name ="id")] int id)
         {
             _manager.ProductService.DeleteOneProduct(id);
+            TempData["danger"] = "The product has been removed.";
             return RedirectToAction("index");
         }
     }

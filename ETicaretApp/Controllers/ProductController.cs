@@ -48,6 +48,7 @@ namespace ETicaretApp.Controllers
             //return View(product);
             
             var model = _manager.ProductService.GetOneProduct(id, false);
+            ViewData["Title"] = model?.ProductName;
             return View(model);
         }
 
