@@ -18,7 +18,7 @@ namespace ETicaretApp.Infrastructure.Extensions
         {
             services.AddDbContext<RepositoryContext>(options =>
             {
-            options.UseSqlite(configuration.GetConnectionString("sqlconnection"), b => b.MigrationsAssembly("ETicaretApp"));
+            options.UseSqlServer(configuration.GetConnectionString("mssqlconnection"), b => b.MigrationsAssembly("ETicaretApp"));
 
             options.EnableSensitiveDataLogging(true);
             });
