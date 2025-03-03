@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Entities.Dtos
 {
-    public class ResetPasswordDto
+    public record ResetPasswordDto
     {
         public String? UserName { get; init; }
 
@@ -12,7 +12,7 @@ namespace Entities.Dtos
 
         [DataType(DataType.Password)]
         [Required(ErrorMessage = "ConfirmPassword is required")]
-        [Compare("Password", ErrorMessage = "Password and ConfirmPassword must be match")]
+        [Compare(nameof(Password), ErrorMessage = "Password and ConfirmPassword must be match")]
         public String? ConfirmPassword { get; init; }
     }
 }

@@ -7,6 +7,7 @@ namespace ETicaretApp.Areas.Admin.Controllers
     [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
+
         public IActionResult Index()
         {
             return View();
