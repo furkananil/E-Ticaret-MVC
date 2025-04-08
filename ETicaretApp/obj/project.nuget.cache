@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Iei7jN6BEhVxYpDW53C2o4AVuPXGdcPgOUoD0kOPyASH3bNchINUErnKMYBnzBT8mb2tZiSMKnv3RO6UqetVpw==",
+  "dgSpecHash": "GAEKgmwiGxhaLh60vLH7sLUbovE6wD/EAc4/aHEIqzsA0Djkn3cEkG7SA9Navyz4Vnq5wlv1HQMp4v5Bb2+T8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\PROJELER\\E-Ticaret-MVC\\ETicaretApp\\ETicaretApp.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\ETicaretApp\\ETicaretApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

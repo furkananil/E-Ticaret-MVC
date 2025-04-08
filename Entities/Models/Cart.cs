@@ -13,6 +13,7 @@ namespace Entities.Models
         {
             CartLine? line = Lines.Where(l => l.Product.ProductId.Equals(product.ProductId)).FirstOrDefault();
 
+            //daha once varsa uzerine ekledik yoksa yeni olusturduk
             if(line is null)
             {
                 Lines.Add(new CartLine()

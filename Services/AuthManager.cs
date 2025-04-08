@@ -24,12 +24,13 @@ namespace Services
 
         public async Task<IdentityResult> CreateUser(UserDtoForCreation userDto)
         {
-            var user = _mapper.Map<IdentityUser>(userDto);
-            var result = await _userManager.CreateAsync(user, userDto.Password);
+            var user = _mapper.Map<IdentityUser>(userDto); //userdtoforcreationu identitiyusera cevirdik
+            var result = await _userManager.CreateAsync(user, userDto.Password); // daha sonra useri olusturduk
 
             if(!result.Succeeded)
                 throw new Exception("User could not be created.");
 
+            // userin 0 dan fazla rolu varsa bunları ekledik
             if(userDto.Roles.Count > 0)
             {
                 var roleResult = await _userManager.AddToRolesAsync(user, userDto.Roles);
@@ -62,7 +63,7 @@ namespace Services
         public async Task<UserDtoForUpdate> GetOneUserForUpdate(string userName)
         {
             var user = await GetOneUser(userName);
-            var userDto = _mapper.Map<UserDtoForUpdate>(user);
+            var userDto = _mapper.Map<UserDtoForUpdate>(user); // identityuseri userdtoforupdate cevirdik
             userDto.Roles = new HashSet<string>(Roles.Select(r => r.Name).ToList());
             userDto.UserRoles = new HashSet<string>(await _userManager.GetRolesAsync(user));
             return userDto;
@@ -84,7 +85,7 @@ namespace Services
 
             var result = await _userManager.UpdateAsync(user);
 
-            if(userDto.Roles.Count > 0)
+            if(userDto.Roles.Count > 0) // eger userdtonun 0 dan fazla rolu varsa rolleri silip yeni roller ata
             {
                 var userRoles = await _userManager.GetRolesAsync(user);
                 var r1 = await _userManager.RemoveFromRolesAsync(user, userRoles);

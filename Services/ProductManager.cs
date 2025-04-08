@@ -22,7 +22,8 @@ namespace Services
 
         public void CreateProduct(ProductDtoForInsertion productDto)
         {
-            //Product product = new Product()
+            // mapper bize bunun gibi uzun atamalar yapmak yerine otomatik donusum sagliyor
+            //Product product = new Product() 
             //{
             //    ProductName = productDto.ProductName,
             //    Price = productDto.Price,

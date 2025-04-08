@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P51ZtSeI0y5qjnJ0NRl2QC8LyvxrsDtD+krFxNDcWWULCFPX/rN/wBnHw3z2Stae6CVb3PHAq9XW7IWQhQRbHw==",
+  "dgSpecHash": "t7gY9Io9e6uHAab8nPIkA7Qk8flzGadNxHxP3f5eQhsn75A3ZpEenTviu0PBgGEGBuIe+z8kL05WSnYTd7QLdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\PROJELER\\E-Ticaret-MVC\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

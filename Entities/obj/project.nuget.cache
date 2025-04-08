@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hmYrtg+/uoB/8O1j4cWdxf6bF8UTgyyOfjKC9G0+wxfDvZdR2RZOz3Zr/eG/4S7CnDWhZjnvL6vFKQsyUOsb3A==",
+  "dgSpecHash": "FDS7aEQe97mPWGXMq0/qij8EX0YaPx9p3COWOdBMxfpWL77Bami5wF89NjMhJWRcHkj0yBNtZJhfFelt7FeRIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\PROJELER\\E-Ticaret-MVC\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",

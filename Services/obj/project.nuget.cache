@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vm/tTHP+Gv/O5N7zOgQSKewGDEyQZjxzdBTsO2l71nLC538mCDKak6K//Y0Hjhdh+SVVT0jDckji9O+lrbaR+w==",
+  "dgSpecHash": "mJOdlI5jLt1y42L99E2PfdcSHHgtx0H/C0N4YJvDG6/NgMyiv0ng75COg32wlxthKsW4tIqfV+o3Ja92Nu1EdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\PROJELER\\E-Ticaret-MVC\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\E-Ticaret-MVC\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
