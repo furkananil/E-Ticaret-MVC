@@ -17,11 +17,17 @@ Bu proje, ASP.NET Core MVC kullanarak geliştirilmiş bir e-ticaret platformudur
 ## Kullanılan Teknolojiler 🛠️
 
 -ASP.NET Core MVC
+
 -C#
+
 -Entity Framework Core
--SQL Server
--LINQ
+
 -Identity
+
+-SQL Server
+
+-LINQ
+
 -Bootstrap & Bootswatch
 
 ## Proje Görüntüleri
