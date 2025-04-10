@@ -7,10 +7,12 @@ Bu proje, ASP.NET Core MVC kullanarak geliştirilmiş bir e-ticaret platformudur
 ## Özellikler 
 
 -Kullanıcı Kimlik Doğrulama : Kullanıcılar kayıt olabilir, giriş yapabilir ve profillerini yönetebilirler.
+
 -Ürün Kataloğu : Ürünler incelenebilir ve arama yapılabilir.
+
 -Alışveriş Sepeti : Ürünler sepete eklenebilir ve ödeme işlemi yapılabilir.
+
 -Sipariş Yönetimi : Admin paneli üzerinden siparişler yönetilebilir.
--Responsive Tasarım : Uygulama, çeşitli cihazlarla uyumludur.
 
 ## Kullanılan Teknolojiler 🛠️
 
@@ -19,6 +21,7 @@ Bu proje, ASP.NET Core MVC kullanarak geliştirilmiş bir e-ticaret platformudur
 -Entity Framework Core
 -SQL Server
 -LINQ
+-Identity
 -Bootstrap & Bootswatch
 
 ## Proje Görüntüleri
