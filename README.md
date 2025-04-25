@@ -41,3 +41,9 @@ Bu proje, ASP.NET Core MVC kullanarak geliştirilmiş bir e-ticaret platformudur
 ![Ekran görüntüsü 2025-04-08 173705](https://github.com/user-attachments/assets/16cf2b3f-1b7c-43cf-a0cb-76623a7d6a2b)
 
 ![Ekran görüntüsü 2025-04-08 174224](https://github.com/user-attachments/assets/0baf89b9-7cd2-496b-8225-2335e41fd889)
+
+![Ekran görüntüsü 2025-04-25 201204](https://github.com/user-attachments/assets/e44c712c-f168-4141-a5a0-37070b9b74e4)
+
+![Ekran görüntüsü 2025-04-25 200842](https://github.com/user-attachments/assets/263937f9-4c79-405a-af3d-99b5940c124e)
+
+![Ekran görüntüsü 2025-04-25 201111](https://github.com/user-attachments/assets/e1055615-aedb-4a21-82dc-80d404f8b2e5)
